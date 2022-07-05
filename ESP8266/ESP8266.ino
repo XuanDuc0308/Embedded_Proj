@@ -1,23 +1,3 @@
-/*
-   NodeMCU ESP8266/ESP12E    RFID MFRC522 / RC522
-           D2       <---------->   SDA/SS
-           D5       <---------->   SCK
-           D7       <---------->   MOSI
-           D6       <---------->   MISO
-           GND      <---------->   GND
-           D1       <---------->   RST
-           3V/3V3   <---------->   3.3V
-                             LCD 1602
-           D4       <---------->   SDA
-           D3       <---------->   SCL
-           VU       <---------->   Vin
-           G        <---------->   GND
-                             Motor serve
-           D8       <---------->   Signal
-           3V3      <---------->   VCC
-           G        <---------->   GND
-
-*/
 #include <ESP8266WebServer.h>
 #include <ESP8266HTTPClient.h>
 #include <SPI.h>
